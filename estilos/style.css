@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;500&family=Encode+Sans:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Passion+One&family=Patrick+Hand&family=Sriracha&display=swap');
+
+
+*  {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    
+     background-image: url(../imagens/img002.jpg);
+     background-size:200%;
+     background-repeat: no-repeat;
+    background-position: top center;
+     
+     
+}
+
+
+header {
+    position:fixed;
+    margin-left: 4%;
+    background-color: rgb(235, 234, 234);
+    border-radius: 10px;
+    
+    padding: 10px;
+    width: 90%;
+    top: 1%; 
+    transform: rotate(10%);
+    opacity: 90%;
+}
+
+header > menu > ul > li {
+    display: inline-block;
+    padding: 10px 5px;    
+    color: rgb(15, 11, 11);
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+header > menu {
+    padding-left: 70px;
+}
+
+header > menu > ul > li:hover {
+    background-image: linear-gradient(30deg, rgb(119, 0, 255) 10%,rgb(139, 82, 182));
+    color: white;
+}
+
+.registro {
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+
+main {
+    display: block;
+}
+
+.titulo > h1 {
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Cinzel';
+}
+
+.titulo > h2 {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.down {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    padding:  20px 30px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.down:hover {
+    transform: scale(105%);
+}
+
+.classes {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 2em;
+    font-family: 'Cinzel';
+    background-image: url(../imagens/fundo01.png);
+    height: 600px;
+    
+}
+
+
+.class {
+    margin-right: 7%;
+    
+}
+
+.classes > div > h1 {
+    padding-top: 100px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    color: rgb(96, 12, 121);
+   
+    
+}
+
+
+.class > ul > li {
+    display: inline-block;
+    width: 15%;
+    height: 10%;
+    margin: auto;
+    list-style-type: none;  
+    
+}
+
+.class > ul > li > a > img {
+    
+    width: 160%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.class > ul > li > a > img {
+    filter: grayscale(100%);
+}
+
+.class > ul > li > a > img {
+    transition: transform 0.5s ease;
+    
+}
+.class > ul > li > a > img:hover {
+    filter: grayscale(0%);
+    transform: scale(105%);
+}
+
+menu > p {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(29, 14, 44);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+    
+}
+
+.sc2 {
+    background-color: rgb(29, 8, 48);
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+}
+
+.sc2 > div > h1 {
+    margin-top: 30px;
+}
+
+.sc2 > div > img {
+    width: 100%;
+    height: 100%;
+}
+
+.sc2 > div > h1, h2, p {
+    color: white;
+    padding: 10px;
+    
+}
+
+.sc2 > div > h1,h2 {
+    font-family: 'Cinzel';
+}
+
+.sc2 > div > p {
+    text-align: justify;    
+    font-family: Helvetica, sans-serif;
+}
+
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+}
+
+.rd {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+    background-image: url(../imagens/img002.jpg);
+    margin-top: 150px;
+    padding: 100px;
+    
+}

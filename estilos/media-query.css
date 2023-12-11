@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Typícal Device Breakpoints 
+pequenas telas: 600px
+Celular: 600px até 768px
+teblet: 768px até 992x
+desktop: 992px até 1200px
+grandes telas acima 1200px
+*/
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .class {
+        display: block;
+        width: 80vw;
+        margin: auto;
+
+    }
+
+   
+
+
+
+}
+
+
+
+
+/* telas grandes */
+@media screen and (min-width: 992px) {
+  
+    .class {
+        display: block;
+        width: 50vw;
+        margin: auto;
+
+    }
+
+    body {
+    
+        background-image: url(../imagens/img002.jpg);
+        background-size:100%;
+        background-repeat: no-repeat;
+           
+   }
+}
